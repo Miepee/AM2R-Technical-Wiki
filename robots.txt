@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /tags/*
 
-Sitemap: https://miepee.github.io/AM2R-Stuff/sitemap.xml
+Sitemap: https://miepee.github.io/AM2R-Technical-Wiki/sitemap.xml

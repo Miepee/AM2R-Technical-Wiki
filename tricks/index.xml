@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AM2R</title>
-    <link>https://miepee.github.io/AM2R-Stuff/tricks/</link>
+    <link>https://miepee.github.io/AM2R-Technical-Wiki/tricks/</link>
     <description>Recent content on AM2R</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://miepee.github.io/AM2R-Stuff/tricks/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://miepee.github.io/AM2R-Technical-Wiki/tricks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Walljumping</title>
-      <link>https://miepee.github.io/AM2R-Stuff/tricks/walljump/</link>
+      <link>https://miepee.github.io/AM2R-Technical-Wiki/tricks/walljump/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://miepee.github.io/AM2R-Stuff/tricks/walljump/</guid>
+      <guid>https://miepee.github.io/AM2R-Technical-Wiki/tricks/walljump/</guid>
       <description></description>
     </item>
     
