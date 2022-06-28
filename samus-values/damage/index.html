@@ -13,7 +13,7 @@
 
 
   <meta name="description" content="Beam Stats Power Beam has the following base stats:
-Name Damage Cooldown (in frames) Speed (TODO: probably pixels per frame) Power 5.0 5 6.4 Every other beam is then applied on top, except for speed, in this order:
+Name Damage Cooldown (in frames) Speed (TODO: probably pixels per frame) Power 5.0 5 6.4 Every other beam then applies attributes on top, except for speed, in this order:
 TODO: double check charge cooldown
 Name Damage (Multiplier to base) Cooldown (in adition to base) Speed Wave 1.5 2 9 Ice 1.5 2 6.4 Spazer 0.8 2 6.4 Plasma 1.2 3 6." />
 
@@ -42,7 +42,7 @@ Name Damage (Multiplier to base) Cooldown (in adition to base) Speed Wave 1.5 2 
   />
   <meta property="og:site_name" content="AM2R" />
   <meta property="og:description" content="Beam Stats Power Beam has the following base stats:
-Name Damage Cooldown (in frames) Speed (TODO: probably pixels per frame) Power 5.0 5 6.4 Every other beam is then applied on top, except for speed, in this order:
+Name Damage Cooldown (in frames) Speed (TODO: probably pixels per frame) Power 5.0 5 6.4 Every other beam then applies attributes on top, except for speed, in this order:
 TODO: double check charge cooldown
 Name Damage (Multiplier to base) Cooldown (in adition to base) Speed Wave 1.5 2 9 Ice 1.5 2 6.4 Spazer 0.8 2 6.4 Plasma 1.2 3 6." />
 <meta property="og:type" content="article" />
@@ -54,7 +54,7 @@ Name Damage (Multiplier to base) Cooldown (in adition to base) Speed Wave 1.5 2 
   <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Damage Values" />
   <meta name="twitter:description" content="Beam Stats Power Beam has the following base stats:
-Name Damage Cooldown (in frames) Speed (TODO: probably pixels per frame) Power 5.0 5 6.4 Every other beam is then applied on top, except for speed, in this order:
+Name Damage Cooldown (in frames) Speed (TODO: probably pixels per frame) Power 5.0 5 6.4 Every other beam then applies attributes on top, except for speed, in this order:
 TODO: double check charge cooldown
 Name Damage (Multiplier to base) Cooldown (in adition to base) Speed Wave 1.5 2 9 Ice 1.5 2 6.4 Spazer 0.8 2 6.4 Plasma 1.2 3 6." />
 
@@ -67,8 +67,8 @@ Name Damage (Multiplier to base) Cooldown (in adition to base) Speed Wave 1.5 2 
       "name": "Damage Values",
       "url" : "https://miepee.github.io/AM2R-Stuff/samus-values/damage/",
       "headline": "Damage Values",
-      "description": "Beam Stats Power Beam has the following base stats:\nName Damage Cooldown (in frames) Speed (TODO: probably pixels per frame) Power 5.0 5 6.4 Every other beam is then applied on top, except for speed, in this order:\nTODO: double check charge cooldown\nName Damage (Multiplier to base) Cooldown (in adition to base) Speed Wave 1.5 2 9 Ice 1.5 2 6.4 Spazer 0.8 2 6.4 Plasma 1.2 3 6.",
-      "wordCount" : "208",
+      "description": "Beam Stats Power Beam has the following base stats:\nName Damage Cooldown (in frames) Speed (TODO: probably pixels per frame) Power 5.0 5 6.4 Every other beam then applies attributes on top, except for speed, in this order:\nTODO: double check charge cooldown\nName Damage (Multiplier to base) Cooldown (in adition to base) Speed Wave 1.5 2 9 Ice 1.5 2 6.4 Spazer 0.8 2 6.4 Plasma 1.2 3 6.",
+      "wordCount" : "213",
       "license": "CC BY-SA 4.0",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
@@ -2368,7 +2368,7 @@ Name Damage (Multiplier to base) Cooldown (in adition to base) Speed Wave 1.5 2 
 </tr>
 </tbody>
 </table> </div>
-<p>Every other beam is then applied on top, except for speed, in this order:<br>
+<p>Every other beam then applies attributes on top, except for speed, in this order:<br>
 TODO: double check charge cooldown</p>
 <div class="table-wrap"> <table>
 <thead>
@@ -2412,7 +2412,7 @@ TODO: double check charge cooldown</p>
 </tr>
 </tbody>
 </table> </div>
-<p>*Charge Beam will have a multiplier of 1.8, if Samus has Wave Beam but not Spazer equipped. Otherwise, it has a multiplier of 3.0</p>
+<p>*Charge Beam will have a multiplier of 1.8, if Samus has Wave Beam but not Spazer equipped. Otherwise, it has a multiplier of 3.0 .</p>
 <p>TODO: does plasma deal damage per frame? AFAIK yes, but cant find it rn in shoot method</p>
 <p>It is also worth noting that:</p>
 <ul>
@@ -2433,8 +2433,7 @@ TODO: double check charge cooldown</p>
     </h2>
 </div>
 <p>Missiles are fairly straight forward:<br>
-TODO: double check speed, as I&rsquo;m certain SMs move faster
-TODO: check missile and super missile explosion</p>
+TODO: double check speed, as I&rsquo;m certain SMs move faster</p>
 <div class="table-wrap"> <table>
 <thead>
 <tr>
@@ -2457,13 +2456,29 @@ TODO: check missile and super missile explosion</p>
 <td>20</td>
 <td>6.4</td>
 </tr>
+<tr>
+<td>Normal Explosion</td>
+<td>5</td>
+<td>10</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>Super	Explosion</td>
+<td>25</td>
+<td>20</td>
+<td>N/A</td>
+</tr>
 </tbody>
 </table> </div>
 <p>Source: <a
   class="gdoc-markdown__link--code"
   href="https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/scripts/shoot_missile.gml"
   
-><code>scripts/shoot_missile.gml</code></a></p>
+><code>scripts/shoot_missile.gml</code></a>, <a
+  class="gdoc-markdown__link--code"
+  href="https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/objects/oMissile.object.gmx"
+  
+><code>oMissile.UserEvent0</code></a></p>
 <div class="gdoc-page__anchorwrap">
     <h2 id="bombs-stats">
         Bombs Stats

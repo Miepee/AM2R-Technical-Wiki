@@ -118,7 +118,7 @@ AM2R Subreddit The Subreddit for evreything AM2R and Metroid: Confrontation rela
       
       <guid>https://miepee.github.io/AM2R-Stuff/samus-values/damage/</guid>
       <description>Beam Stats Power Beam has the following base stats:
-Name Damage Cooldown (in frames) Speed (TODO: probably pixels per frame) Power 5.0 5 6.4 Every other beam is then applied on top, except for speed, in this order:
+Name Damage Cooldown (in frames) Speed (TODO: probably pixels per frame) Power 5.0 5 6.4 Every other beam then applies attributes on top, except for speed, in this order:
 TODO: double check charge cooldown
 Name Damage (Multiplier to base) Cooldown (in adition to base) Speed Wave 1.5 2 9 Ice 1.5 2 6.4 Spazer 0.8 2 6.4 Plasma 1.2 3 6.</description>
     </item>
