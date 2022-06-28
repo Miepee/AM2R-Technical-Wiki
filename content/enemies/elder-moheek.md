@@ -1,0 +1,5 @@
+---
+title: Elder Moheek
+---
+
+Croak.

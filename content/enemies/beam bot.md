@@ -1,0 +1,5 @@
+---
+title: Beam Bot
+---
+
+Croak.

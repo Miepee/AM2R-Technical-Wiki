@@ -1,0 +1,5 @@
+---
+title: Shirk
+---
+
+Croak.

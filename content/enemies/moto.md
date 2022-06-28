@@ -1,0 +1,5 @@
+---
+title: Moto
+---
+
+Croak.
