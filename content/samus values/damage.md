@@ -3,30 +3,46 @@ title: Damage Values
 ---
 
 ## Beam Stats
-TODO: source links
-- Higher speed is always chosen
-- Charge Multiplier is always applied last
-- For Charge Beam, Wave Beam without Spazer will apply a Multipler of X1.8 instead of X3.0
-
-TODO: needs clarification
-| Name     | Damage     | Cooldown (in frames)  | Speed |
+Power Beam has the following base stats:
+| Name     | Damage     | Cooldown (in frames)  | Speed (TODO: probably pixels per frame) |
 | -------- | ---------- | --------------------- | ----- |
-| Power	   |5.0	  	    |5		 	            |6.4	|
-| Ice	   |X1.5	    |+2		 	            |6.4	|
-| Wave	   |X1.5	    |+2		 	            |6.4	|
-| Plasma   |X1.2	    |+3		 	            |6.4	|
-| Spazer   |X0.8	    |+2		 	            |6.4	|
-|		   | 		    |			            |		|
-| Charge   |X3.0 / X1.6 |16                     |16     |
+| Power	   | 5.0  	    | 5		 	            | 6.4	|
+
+Every other beam is then applied on top, except for speed, in this order:  
+TODO: double check charge cooldown
+
+| Name     | Damage (Multiplier to base) | Cooldown (in adition to base)  | Speed |
+| -------- | --------------------------- | ------------------------------ | ----- |
+| Wave	   | 1.5                         | 2	 	                      | 9	  |
+| Ice	   | 1.5                         | 2	 	                      | 6.4	  |
+| Spazer   | 0.8                         | 2	 	                      | 6.4	  |
+| Plasma   | 1.2                         | 3	 	                      | 6.4	  |
+| Charge   | 3.0 / 1.8*                  | 16                             | 12    |
+
+*Charge Beam will have a multiplier of 1.8, if Samus has Wave Beam but not Spazer equipped. Otherwise, it has a multiplier of 3.0 
+
+TODO: does plasma deal damage per frame? AFAIK yes, but cant find it rn in shoot method
+
+It is also worth noting that:
+- Spazer creates 3 beam projectiles that can do damage
+- Charged Wave without Spazer creates two beam projectiles that can do damage
+
+Source: [`scripts/shoot_beam.gml`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/scripts/shoot_beam.gml)
 
 
 ## Missile Stats
+Missiles are fairly straight forward:  
+TODO: double check speed, as I'm certain SMs move faster 
+TODO: check missile and super missile explosion
 | Name     | Damage     | Cooldown (in frames)  | Speed |
 | -------- | ---------- | --------------------- | ----- |
 | Normal   |20	  	    |10		 	            |6.4	|
 | Super	   |100	    	|20		 	            |6.4	|
 
+Source: [`scripts/shoot_missile.gml`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/scripts/shoot_missile.gml)
+
 ## Bombs Stats
+TODO: find source and double check
 | Name     | Damage     | Cooldown (in frames)  | Speed |
 | -------- | ---------- | --------------------- | ----- |
 | Normal   |6	  	    |10		 	            |6.4	|
