@@ -16,10 +16,19 @@
     
     <item>
       <title>Ancient Guardian</title>
-      <link>https://miepee.github.io/AM2R-Stuff/bosses/template/</link>
+      <link>https://miepee.github.io/AM2R-Stuff/bosses/ancient-guardian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://miepee.github.io/AM2R-Stuff/bosses/template/</guid>
+      <guid>https://miepee.github.io/AM2R-Stuff/bosses/ancient-guardian/</guid>
+      <description>Meep</description>
+    </item>
+    
+    <item>
+      <title>Arachnus</title>
+      <link>https://miepee.github.io/AM2R-Stuff/bosses/arachnus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/bosses/arachnus/</guid>
       <description>Meep</description>
     </item>
     
@@ -165,6 +174,15 @@ https://am2r-community-developers.github.io/DistributionCenter/news.html</descri
     </item>
     
     <item>
+      <title>Genesis</title>
+      <link>https://miepee.github.io/AM2R-Stuff/bosses/genesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/bosses/genesis/</guid>
+      <description>Meep</description>
+    </item>
+    
+    <item>
       <title>Glow Fly</title>
       <link>https://miepee.github.io/AM2R-Stuff/enemies/glow-fly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -291,6 +309,15 @@ Custom Pallettes A GitHub repository containing community-made custom Samus pale
     </item>
     
     <item>
+      <title>Serris</title>
+      <link>https://miepee.github.io/AM2R-Stuff/bosses/serris/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/bosses/serris/</guid>
+      <description>Meep</description>
+    </item>
+    
+    <item>
       <title>Shield Bot</title>
       <link>https://miepee.github.io/AM2R-Stuff/enemies/shield-bot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -324,6 +351,33 @@ Custom Pallettes A GitHub repository containing community-made custom Samus pale
       
       <guid>https://miepee.github.io/AM2R-Stuff/enemies/skree/</guid>
       <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Tank Prototype</title>
+      <link>https://miepee.github.io/AM2R-Stuff/bosses/tank-prototype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/bosses/tank-prototype/</guid>
+      <description>Meep</description>
+    </item>
+    
+    <item>
+      <title>Tester</title>
+      <link>https://miepee.github.io/AM2R-Stuff/bosses/tester/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/bosses/tester/</guid>
+      <description>Meep</description>
+    </item>
+    
+    <item>
+      <title>Torizo</title>
+      <link>https://miepee.github.io/AM2R-Stuff/bosses/torizo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/bosses/torizo/</guid>
+      <description>Meep</description>
     </item>
     
     <item>
