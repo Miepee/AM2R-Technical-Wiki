@@ -24,6 +24,60 @@
     </item>
     
     <item>
+      <title>Autoad</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/autoad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/autoad/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Autom</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/autom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/autom/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Autrack</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/autrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/autrack/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Beam Bot</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/beam-bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/beam-bot/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Blade Bot</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/blade-bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/blade-bot/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Cavedropper</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/cavedropper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/cavedropper/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
       <title>Chats</title>
       <link>https://miepee.github.io/AM2R-Stuff/useful-links/chats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -40,6 +94,15 @@ AM2R Subreddit The Subreddit for evreything AM2R and Metroid: Confrontation rela
     </item>
     
     <item>
+      <title>Chute Leech</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/chute-leech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/chute-leech/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
       <title>Damage Values</title>
       <link>https://miepee.github.io/AM2R-Stuff/samus-values/damage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -47,6 +110,42 @@ AM2R Subreddit The Subreddit for evreything AM2R and Metroid: Confrontation rela
       <guid>https://miepee.github.io/AM2R-Stuff/samus-values/damage/</guid>
       <description>Beam Stats Higher speed is always chosen Charge Multiplier is always applied last For Charge Beam, Wave Beam without Spazer will apply a Multipler of X1.8 instead of X3.0 TODO: needs clarification
 Name Damage Cooldown (in frames) Speed Power 5.0 5 6.4 Ice X1.5 +2 6.4 Wave X1.5 +2 6.4 Plasma X1.2 +3 6.4 Spazer X0.8 +2 6.4 Charge X3.0 / X1.6 16 16 Missile Stats Name Damage Cooldown (in frames) Speed Normal 20 10 6.</description>
+    </item>
+    
+    <item>
+      <title>Drivel</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/drivel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/drivel/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Elder Moheek</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/elder-moheek/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/elder-moheek/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Flitt</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/flitt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/flitt/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Gawron</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/gawron/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/gawron/</guid>
+      <description>Croak.</description>
     </item>
     
     <item>
@@ -63,6 +162,51 @@ Changelog The changelog of all Community Updates.
 https://am2r-community-developers.github.io/DistributionCenter/changelog.html
 News News for AM2R and co.
 https://am2r-community-developers.github.io/DistributionCenter/news.html</description>
+    </item>
+    
+    <item>
+      <title>Glow Fly</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/glow-fly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/glow-fly/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Gravitt</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/gravitt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/gravitt/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Gullugg</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/gullugg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/gullugg/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Gunzoo</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/gunzoo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/gunzoo/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Halzyn</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/halzyn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/halzyn/</guid>
+      <description>Croak.</description>
     </item>
     
     <item>
@@ -102,6 +246,114 @@ Custom Pallettes A GitHub repository containing community-made custom Samus pale
     </item>
     
     <item>
+      <title>Moto</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/moto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/moto/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Octroll</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/octroll/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/octroll/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Pincher Fly</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/pincher-fly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/pincher-fly/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Proboscum</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/proboscum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/proboscum/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Senjoo</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/senjoo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/senjoo/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Shield Bot</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/shield-bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/shield-bot/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Shirk</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/shirk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/shirk/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Skorp</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/skorp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/skorp/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Skreek</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/skree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/skree/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>TPO</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/tpo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/tpo/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Tsumuri</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/tsumuri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/tsumuri/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Wallfire</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/wallfire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/wallfire/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
       <title>Walljumping</title>
       <link>https://miepee.github.io/AM2R-Stuff/tricks/walljump/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -117,6 +369,24 @@ Custom Pallettes A GitHub repository containing community-made custom Samus pale
       
       <guid>https://miepee.github.io/AM2R-Stuff/template/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Yumbo</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/yumbo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/yumbo/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Yumee</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/yumee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/yumee/</guid>
+      <description>Croak.</description>
     </item>
     
   </channel>
