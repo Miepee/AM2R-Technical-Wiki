@@ -9,7 +9,8 @@ Power Beam has the following base stats:
 | Power	   | 5.0  	    | 5		 	            | 6.4	|
 
 Every other beam then applies attributes on top, except for speed, in this order:  
-TODO: double check charge cooldown
+TODO: double check charge cooldown: charge_beam_fire
+TODO: apparently multipliers are applied multiple times? https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/df6576c1064881a711d96b825042eae5bab3fbb1/scripts/chStepFire.gml#L59
 
 | Name     | Damage (Multiplier to base) | Cooldown (in adition to base)  | Speed |
 | -------- | --------------------------- | ------------------------------ | ----- |
