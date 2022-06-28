@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AM2R</title>
+    <link>https://miepee.github.io/AM2R-Stuff/</link>
+    <description>Recent content on AM2R</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://miepee.github.io/AM2R-Stuff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alphas</title>
+      <link>https://miepee.github.io/AM2R-Stuff/metroids/template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/metroids/template/</guid>
+      <description>SCREEEK</description>
+    </item>
+    
+    <item>
+      <title>Ancient Guardian</title>
+      <link>https://miepee.github.io/AM2R-Stuff/bosses/template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/bosses/template/</guid>
+      <description>Meep</description>
+    </item>
+    
+    <item>
+      <title>Chats</title>
+      <link>https://miepee.github.io/AM2R-Stuff/useful-links/chats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/useful-links/chats/</guid>
+      <description>Links to places where you can chat about AM2R.
+AM2R Discord The Official AM2R Discord Server. It&amp;rsquo;s also bridged with the AM2R Matrix Space.
+https://discord.gg/YTQnkAJ
+AM2R Matrix Space The Official AM2R Matrix Space. It&amp;rsquo;s also bridged with the AM2R Discord.
+https://matrix.to/#/#am2r:matrix.org
+AM2R Speedrun Discord The Discord server for all things speedrunning related. Speedrunning related inqueries will get faster answers here than in the AM2R Discord.
+https://discord.gg/Jndkzu7
+AM2R Subreddit The Subreddit for evreything AM2R and Metroid: Confrontation related.</description>
+    </item>
+    
+    <item>
+      <title>Damage Values</title>
+      <link>https://miepee.github.io/AM2R-Stuff/samus-values/damage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/samus-values/damage/</guid>
+      <description>Beam Stats Higher speed is always chosen Charge Multiplier is always applied last For Charge Beam, Wave Beam without Spazer will apply a Multipler of X1.8 instead of X3.0 TODO: needs clarification
+Name Damage Cooldown (in frames) Speed Power 5.0 5 6.4 Ice X1.5 +2 6.4 Wave X1.5 +2 6.4 Plasma X1.2 +3 6.4 Spazer X0.8 +2 6.4 Charge X3.0 / X1.6 16 16 Missile Stats Name Damage Cooldown (in frames) Speed Normal 20 10 6.</description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>https://miepee.github.io/AM2R-Stuff/useful-links/general/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/useful-links/general/</guid>
+      <description>TODO: get better title and description.
+Links to general AM2R places
+FAQ Frequently asked questions about AM2R.
+https://am2r-community-developers.github.io/DistributionCenter/faq.html
+News News for AM2R and co.
+https://am2r-community-developers.github.io/DistributionCenter/news.html</description>
+    </item>
+    
+    <item>
+      <title>Health Values</title>
+      <link>https://miepee.github.io/AM2R-Stuff/samus-values/health/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/samus-values/health/</guid>
+      <description>TODO:</description>
+    </item>
+    
+    <item>
+      <title>Hornoad</title>
+      <link>https://miepee.github.io/AM2R-Stuff/enemies/hornoad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/enemies/hornoad/</guid>
+      <description>Croak.</description>
+    </item>
+    
+    <item>
+      <title>Modifications</title>
+      <link>https://miepee.github.io/AM2R-Stuff/useful-links/modifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/useful-links/modifications/</guid>
+      <description>Links everything modification related.
+1.1 Source Code reconstruction The source code repository for the 1.1 reconstruction done by YellowAfterLife.
+https://gitlab.com/yellowafterlife/AM2Rrc
+1.5.X Source Code The source code repository for the 1.5.X Community Updates.
+https://github.com/AM2R-Community-Developers/AM2R-Community-Updates
+Mods list A GitLab repository containing a community-maintained list of released AM2R Mods.
+https://gitlab.com/Miepee/AM2R-Mods
+UndertaleModTool A general purpose GameMaker datafile editor. The recommended tool for creating AM2R-Mods.
+https://github.com/krzys-h/UndertaleModTool/
+Custom Pallettes A GitHub repository containing community-made custom Samus palettes.</description>
+    </item>
+    
+    <item>
+      <title>Walljumping</title>
+      <link>https://miepee.github.io/AM2R-Stuff/tricks/walljump/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/tricks/walljump/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X-X-X</title>
+      <link>https://miepee.github.io/AM2R-Stuff/template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Stuff/template/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
