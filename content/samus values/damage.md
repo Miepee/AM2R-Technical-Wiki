@@ -8,7 +8,7 @@ Power Beam has the following base stats:
 | -------- | ---------- | --------------------- | ----- |
 | Power	   | 5.0  	    | 5		 	            | 6.4	|
 
-Every other beam is then applied on top, except for speed, in this order:  
+Every other beam then applies attributes on top, except for speed, in this order:  
 TODO: double check charge cooldown
 
 | Name     | Damage (Multiplier to base) | Cooldown (in adition to base)  | Speed |
@@ -19,7 +19,7 @@ TODO: double check charge cooldown
 | Plasma   | 1.2                         | 3	 	                      | 6.4	  |
 | Charge   | 3.0 / 1.8*                  | 16                             | 12    |
 
-*Charge Beam will have a multiplier of 1.8, if Samus has Wave Beam but not Spazer equipped. Otherwise, it has a multiplier of 3.0 
+*Charge Beam will have a multiplier of 1.8, if Samus has Wave Beam but not Spazer equipped. Otherwise, it has a multiplier of 3.0 . 
 
 TODO: does plasma deal damage per frame? AFAIK yes, but cant find it rn in shoot method
 
@@ -33,17 +33,18 @@ Source: [`scripts/shoot_beam.gml`](https://github.com/AM2R-Community-Developers/
 ## Missile Stats
 Missiles are fairly straight forward:  
 TODO: double check speed, as I'm certain SMs move faster 
-TODO: check missile and super missile explosion
-| Name     | Damage     | Cooldown (in frames)  | Speed |
-| -------- | ---------- | --------------------- | ----- |
-| Normal   |20	  	    |10		 	            |6.4	|
-| Super	   |100	    	|20		 	            |6.4	|
+| Name              | Damage     | Cooldown (in frames)  | Speed |
+| ----------------- | ---------- | --------------------- | ----- |
+| Normal            | 20 	     | 10		 	         | 6.4	 |
+| Super	            | 100	     | 20		 	         | 6.4	 |
+| Normal Explosion  | 5	  	     | 10		 	         | N/A	 |
+| Super	Explosion   | 25         | 20		 	         | N/A	 |
 
-Source: [`scripts/shoot_missile.gml`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/scripts/shoot_missile.gml)
+Source: [`scripts/shoot_missile.gml`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/scripts/shoot_missile.gml), [`oMissile.UserEvent0`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/objects/oMissile.object.gmx)
 
 ## Bombs Stats
 TODO: find source and double check
 | Name     | Damage     | Cooldown (in frames)  | Speed |
 | -------- | ---------- | --------------------- | ----- |
-| Normal   |6	  	    |10		 	            |6.4	|
-| Power	   |20	    	|20		 	            |6.4	|
+| Normal   | 6	  	    | 10	 	            | 6.4	|
+| Power	   | 20	    	| 20	 	            | 6.4	|
