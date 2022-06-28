@@ -3,6 +3,7 @@ title: Damage Values
 ---
 
 ## Beam Stats
+TODO: source links
 - Higher speed is always chosen
 - Charge Multiplier is always applied last
 - For Charge Beam, Wave Beam without Spazer will apply a Multipler of X1.8 instead of X3.0
