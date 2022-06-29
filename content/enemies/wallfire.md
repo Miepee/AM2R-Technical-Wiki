@@ -32,7 +32,7 @@ Wallfire has two timers (units in frames):
 - repeatedTimer:
     |Easy|Normal|Hard
     |----|----|-----
-    |30+(timer*1.5)|20+timer|10+(timer*0.5) 
+    |30+(`timer`*1.5)|20+`timer`|10+(`timer`*0.5) 
 
     The `timer` variable is unique to each Wallfire and is set in their instance creation code.
 
