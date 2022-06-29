@@ -12,7 +12,9 @@
 <meta name="generator" content="Hugo 0.101.0" />
 
 
-  <meta name="description" content="Croak." />
+  <meta name="description" content="There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.
+The internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2
+[Wallfire1 image] Health: 11 Damage: 4 Can be X: No Can be EMP&rsquo;d: Yes [Wallfire2 image] Health: 15 Damage: 4 Can be X: No Can be EMP&rsquo;d: Yes Wallfire has two timers:" />
 
     <title>Wallfire | AM2R</title>
 
@@ -38,7 +40,9 @@
     content="Wallfire"
   />
   <meta property="og:site_name" content="AM2R" />
-  <meta property="og:description" content="Croak." />
+  <meta property="og:description" content="There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.
+The internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2
+[Wallfire1 image] Health: 11 Damage: 4 Can be X: No Can be EMP’d: Yes [Wallfire2 image] Health: 15 Damage: 4 Can be X: No Can be EMP’d: Yes Wallfire has two timers:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://miepee.github.io/AM2R-Technical-Wiki/enemies/wallfire/" />
 
@@ -47,7 +51,9 @@
 
   <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Wallfire" />
-  <meta name="twitter:description" content="Croak." />
+  <meta name="twitter:description" content="There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.
+The internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2
+[Wallfire1 image] Health: 11 Damage: 4 Can be X: No Can be EMP’d: Yes [Wallfire2 image] Health: 15 Damage: 4 Can be X: No Can be EMP’d: Yes Wallfire has two timers:" />
 
 
   <script type="application/ld+json">
@@ -58,8 +64,8 @@
       "name": "Wallfire",
       "url" : "https://miepee.github.io/AM2R-Technical-Wiki/enemies/wallfire/",
       "headline": "Wallfire",
-      "description": "Croak.",
-      "wordCount" : "1",
+      "description": "There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.\nThe internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2\n[Wallfire1 image] Health: 11 Damage: 4 Can be X: No Can be EMP’d: Yes [Wallfire2 image] Health: 15 Damage: 4 Can be X: No Can be EMP’d: Yes Wallfire has two timers:",
+      "wordCount" : "217",
       "license": "CC BY-SA 4.0",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
@@ -2332,7 +2338,129 @@
     class="gdoc-markdown gdoc-markdown__align--left"
   >
     <h1>Wallfire</h1>
-    <p>Croak.</p>
+    <p>There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.<br>
+The internal names are <code>oWallfire</code> and <code>oWallfire2</code>, and for projectiles <code>oWallfireProj</code> and <code>oWallfireProj2</code></p>
+<ul>
+<li>[Wallfire1 image]</li>
+<li>Health: 11</li>
+<li>Damage: 4</li>
+<li>Can be X: No</li>
+<li>Can be EMP&rsquo;d: Yes</li>
+</ul>
+<hr>
+<ul>
+<li>[Wallfire2 image]</li>
+<li>Health: 15</li>
+<li>Damage: 4</li>
+<li>Can be X: No</li>
+<li>Can be EMP&rsquo;d: Yes</li>
+</ul>
+<hr>
+<p>Wallfire has two timers:</p>
+<ul>
+<li>
+<p>initialTimer:</p>
+<div class="table-wrap"> <table>
+<thead>
+<tr>
+<th>Easy</th>
+<th>Normal</th>
+<th>Hard</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>120</td>
+<td>80</td>
+<td>70</td>
+</tr>
+</tbody>
+</table> </div>
+</li>
+<li>
+<p>repeatedTimer:</p>
+<div class="table-wrap"> <table>
+<thead>
+<tr>
+<th>Easy</th>
+<th>Normal</th>
+<th>Hard</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30+(timer*1.5)</td>
+<td>20+timer</td>
+<td>10+(timer*0.5)</td>
+</tr>
+</tbody>
+</table> </div>
+<p>The <code>timer</code> variable is unique to each Wallfire and is set in their instance creation code.</p>
+</li>
+</ul>
+<p>At creation, the Wallfire runs <code>initialTimer</code> to determine when to fire the first projectile. After the first projectile has been fired, it will use <code>repeatedTimer</code> to determine when to fire a projectile again.</p>
+<p>Here&rsquo;s a visual representation of it:</p>
+
+
+  
+  <script defer src="/AM2R-Technical-Wiki/js/mermaid-cb6d4919.bundle.min.js"></script>
+  
+
+
+
+<pre class="gdoc-mermaid mermaid text-center">
+graph TB
+    A[Creation] -->|Set InitializeTimer| B{Check InitializeTimer}
+    B -->|Timer > 0| C[Decrease Timer]
+    C --> B
+    B -->|Timer == 0| D[Fire Projectile]
+    D -->|Set RepeatedTimer| E{Check RepeatedTimer}
+    E -->|Timer > 0| F[Decrease Timer]
+    F --> E
+    E -->|Timer == 0| D
+</pre>
+
+<p>TODO: note down <code>timer</code> for each wallfire.</p>
+<hr>
+<p>Wallfire Projectiles</p>
+<ul>
+<li>
+<p>[wallfireproj image]</p>
+</li>
+<li>
+<p>HPush: 5</p>
+</li>
+<li>
+<p>VPush: -3</p>
+</li>
+<li>
+<p>Damage: 3</p>
+</li>
+<li>
+<p>HSpeed: 3</p>
+</li>
+<li>
+<p>VSpeed: 0</p>
+</li>
+<li>
+<p>[wallfireproj2 image]</p>
+</li>
+<li>
+<p>HPush: 5</p>
+</li>
+<li>
+<p>VPush: -3</p>
+</li>
+<li>
+<p>Damage: 8</p>
+</li>
+<li>
+<p>HSpeed: 3.5</p>
+</li>
+<li>
+<p>VSpeed: 0</p>
+</li>
+</ul>
 
   </article>
 
