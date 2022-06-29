@@ -39,19 +39,18 @@ Wallfire has two timers (units in frames):
 At creation, the Wallfire runs `initialTimer` to determine when to fire the first projectile. After the first projectile has been fired, it will use `repeatedTimer` to determine when to fire a projectile again.
 
 Here's a visual representation of it:  
-{{< expand "Click to expand" >}}
+
 {{< mermaid class="text-center">}}
 graph TB
-    A[Creation] -->|Set initialTimer| B{Check initialTimer}
+    A[Creation] -->|Set initialTimer| B{{Check initialTimer}}
     B -->|Timer > 0| C[Decrease initialTimer]
     C --> B
     B -->|Timer == 0| D[Fire Projectile]
-    D -->|Set repeatedTimer| E{Check repeatedTimer}
+    D -->|Set repeatedTimer| E{{Check repeatedTimer}}
     E -->|Timer > 0| F[Decrease repeatedTimer]
     F --> E
     E -->|Timer == 0| D
 {{< /mermaid >}}
-{{< /expand >}}
 
 TODO: note down `timer` for each wallfire.
 
@@ -78,3 +77,5 @@ Wallfire Projectiles
 - VSpeed: 0
 
 {{< /columns >}}
+
+Source: [`oWallfire`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/objects/oWallfire.object.gmx), [`oWallFire2`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/objects/oWallfire2.object.gmx), [`oWallfireProj`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/objects/oWallfireProj.object.gmx), [`oWallfireProj2`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/objects/oWallfireProj2.object.gmx)
