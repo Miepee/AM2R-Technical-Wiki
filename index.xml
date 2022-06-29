@@ -76,7 +76,9 @@ If Samus is in the 90 units target range, start the winding up animation and wai
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://miepee.github.io/AM2R-Technical-Wiki/enemies/cavedropper/</guid>
-      <description>Croak.</description>
+      <description>[Cavedropper nest image] Health: 10 TODO: invulnerable to a lot of things TODO: speed is dependant of the difficulty!
+[Cavedropper image] Health: 5 Damage: 6 Can be X: TODO Can be EMP&amp;rsquo;d: No The nests logic is relatively simple:
+After creation, it waits a frame, and then starts checking if Samus is in the 120 units target frame and spawn a cavedropper if thats the case. The next check will then be done after 120 frames.</description>
     </item>
     
     <item>
@@ -419,7 +421,6 @@ Custom Pallettes A GitHub repository containing community-made custom Samus pale
       
       <guid>https://miepee.github.io/AM2R-Technical-Wiki/enemies/wallfire/</guid>
       <description>There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.
-The internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2.
 [Wallfire1 image] Health: 11 Damage: 4 Can be X: No Can be EMP&amp;rsquo;d: Yes TODO: speed is dependant of the difficulty!
 [wallfireproj image] HPush: 5 VPush: -3 Damage: 3 HSpeed: 3 VSpeed: 0 [Wallfire2 image] Health: 15 Damage: 4 Can be X: No Can be EMP&amp;rsquo;d: Yes [wallfireproj2 image] HPush: 5 VPush: -3 Damage: 8 HSpeed: 3.</description>
     </item>

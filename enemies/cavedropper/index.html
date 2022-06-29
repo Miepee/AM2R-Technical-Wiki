@@ -12,7 +12,9 @@
 <meta name="generator" content="Hugo 0.101.0" />
 
 
-  <meta name="description" content="Croak." />
+  <meta name="description" content="[Cavedropper nest image] Health: 10 TODO: invulnerable to a lot of things TODO: speed is dependant of the difficulty!
+[Cavedropper image] Health: 5 Damage: 6 Can be X: TODO Can be EMP&rsquo;d: No The nests logic is relatively simple:
+After creation, it waits a frame, and then starts checking if Samus is in the 120 units target frame and spawn a cavedropper if thats the case. The next check will then be done after 120 frames." />
 
     <title>Cavedropper | AM2R Technical Wiki</title>
 
@@ -38,7 +40,9 @@
     content="Cavedropper"
   />
   <meta property="og:site_name" content="AM2R Technical Wiki" />
-  <meta property="og:description" content="Croak." />
+  <meta property="og:description" content="[Cavedropper nest image] Health: 10 TODO: invulnerable to a lot of things TODO: speed is dependant of the difficulty!
+[Cavedropper image] Health: 5 Damage: 6 Can be X: TODO Can be EMP’d: No The nests logic is relatively simple:
+After creation, it waits a frame, and then starts checking if Samus is in the 120 units target frame and spawn a cavedropper if thats the case. The next check will then be done after 120 frames." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://miepee.github.io/AM2R-Technical-Wiki/enemies/cavedropper/" />
 
@@ -47,7 +51,9 @@
 
   <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Cavedropper" />
-  <meta name="twitter:description" content="Croak." />
+  <meta name="twitter:description" content="[Cavedropper nest image] Health: 10 TODO: invulnerable to a lot of things TODO: speed is dependant of the difficulty!
+[Cavedropper image] Health: 5 Damage: 6 Can be X: TODO Can be EMP’d: No The nests logic is relatively simple:
+After creation, it waits a frame, and then starts checking if Samus is in the 120 units target frame and spawn a cavedropper if thats the case. The next check will then be done after 120 frames." />
 
 
   <script type="application/ld+json">
@@ -58,8 +64,8 @@
       "name": "Cavedropper",
       "url" : "https://miepee.github.io/AM2R-Technical-Wiki/enemies/cavedropper/",
       "headline": "Cavedropper",
-      "description": "Croak.",
-      "wordCount" : "1",
+      "description": "[Cavedropper nest image] Health: 10 TODO: invulnerable to a lot of things TODO: speed is dependant of the difficulty!\n[Cavedropper image] Health: 5 Damage: 6 Can be X: TODO Can be EMP’d: No The nests logic is relatively simple:\nAfter creation, it waits a frame, and then starts checking if Samus is in the 120 units target frame and spawn a cavedropper if thats the case. The next check will then be done after 120 frames.",
+      "wordCount" : "138",
       "license": "CC BY-SA 4.0",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
@@ -2368,7 +2374,53 @@
     class="gdoc-markdown gdoc-markdown__align--left"
   >
     <h1>Cavedropper</h1>
-    <p>Croak.</p>
+    <div class="gdoc-columns flex flex-wrap flex-mobile-column">
+  
+    <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+      <ul>
+<li>[Cavedropper nest image]</li>
+<li>Health: 10
+TODO: invulnerable to a lot of things</li>
+</ul>
+
+    </div>
+  
+    <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+      <p>TODO: speed is dependant of the difficulty!</p>
+<ul>
+<li>[Cavedropper image]</li>
+<li>Health: 5</li>
+<li>Damage: 6</li>
+<li>Can be X: TODO</li>
+<li>Can be EMP&rsquo;d: No</li>
+</ul>
+
+    </div>
+  
+</div>
+
+<p>The nests logic is relatively simple:<br>
+After creation, it waits a frame, and then starts checking if Samus is in the 120 units target frame and spawn a cavedropper if thats the case. The next check will then be done after 120 frames.</p>
+<p>Visual representation:
+
+
+  
+  <script defer src="/AM2R-Technical-Wiki/js/mermaid-cb6d4919.bundle.min.js"></script>
+  
+
+
+
+<pre class="gdoc-mermaid mermaid text-center">
+graph TB
+    A[Creation] -->|Wait a frame| B{{Check if Samus is in target range}}
+    B -->|Samus is not in target range| C[Wait 120 frames]
+    B -->|Samus is in target range| D[Spawn Cavedropper]
+    C --> B
+    D --> C
+</pre>
+</p>
+<p>TODO: cavedropper has a state 0 that seems unreachable. is that truly the case? check for instance creation code!</p>
+<p>TODO: write cavedropper logic</p>
 
   </article>
 
