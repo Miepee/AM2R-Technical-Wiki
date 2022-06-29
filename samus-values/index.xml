@@ -18,6 +18,16 @@ Name Damage (Multiplier to base) Cooldown (in adition to base) Speed Wave 1.5 2 
     </item>
     
     <item>
+      <title>Drop Values</title>
+      <link>https://miepee.github.io/AM2R-Technical-Wiki/samus-values/drops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miepee.github.io/AM2R-Technical-Wiki/samus-values/drops/</guid>
+      <description>Except for bosses and their projectiles, every enemy has the same drop spawning system, which is as follows:
+├─ Pickup Index is set to a number between flr(rnd(4)) │ ├─ If (&amp;#34;Pickup Index&amp;#34; is 0) then spawn &amp;#34;Small HP&amp;#34; if (&amp;#34;Player HP&amp;#34; is less than &amp;#34;Maximum HP&amp;#34; and &amp;#34;Small HP&amp;#34; count is less than &amp;#34;6&amp;#34;) │ ├─ Otherwise set &amp;#34;Pickup Index&amp;#34; to 2 (Missile Drop) │ ├─ If (&amp;#34;Pickup Index&amp;#34; is 1) then spawn &amp;#34;Big HP&amp;#34; if (&amp;#34;Player HP&amp;#34; is less than &amp;#34;Maximum HP&amp;#34; and &amp;#34;Big HP&amp;#34; count is less than &amp;#34;3&amp;#34;) │ ├─ Otherwise set &amp;#34;Pickup Index&amp;#34; to 2 (Missile Drop) │ ├─ If (&amp;#34;Pickup Index&amp;#34; is 2) then spawn &amp;#34;Missile Drop&amp;#34; if (&amp;#34;Player Missiles&amp;#34; is less than &amp;#34;Maximum Missiles&amp;#34;, &amp;#34;Maximum Missiles&amp;#34; is greater than 0, and &amp;#34;Missile Drop&amp;#34; count is less than &amp;#34;8&amp;#34;) │ ├─ If (&amp;#34;Pickup Index&amp;#34; is 3) then spawn &amp;#34;Missile Drop&amp;#34; if (&amp;#34;Player Super Missiles&amp;#34; is less than &amp;#34;Maximum Super Missiles&amp;#34;, &amp;#34;Maximum Super Missiles&amp;#34; is greater than 0, and &amp;#34;Super Missile Drop&amp;#34; count is less than &amp;#34;2&amp;#34;) </description>
+    </item>
+    
+    <item>
       <title>Health Values</title>
       <link>https://miepee.github.io/AM2R-Technical-Wiki/samus-values/health/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
