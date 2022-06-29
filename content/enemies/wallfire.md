@@ -3,7 +3,7 @@ title: Wallfire
 ---
 
 There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.  
-The internal names are `oWallfire` and `oWallfire2`, and for projectiles `oWallfireProj` and `oWallfireProj2` 
+The internal names are `oWallfire` and `oWallfire2`, and for projectiles `oWallfireProj` and `oWallfireProj2`. 
 
 - [Wallfire1 image]
 - Health: 11
@@ -38,11 +38,11 @@ Here's a visual representation of it:
 {{< mermaid class="text-center">}}
 graph TB
     A[Creation] -->|Set initialTimer| B{Check initialTimer}
-    B -->|Timer > 0| C[Decrease Timer]
+    B -->|Timer > 0| C[Decrease initialTimer]
     C --> B
     B -->|Timer == 0| D[Fire Projectile]
     D -->|Set repeatedTimer| E{Check repeatedTimer}
-    E -->|Timer > 0| F[Decrease Timer]
+    E -->|Timer > 0| F[Decrease repeatedTimer]
     F --> E
     E -->|Timer == 0| D
 {{< /mermaid >}}
