@@ -34,18 +34,19 @@ Wallfire has two timers:
 At creation, the Wallfire runs `initialTimer` to determine when to fire the first projectile. After the first projectile has been fired, it will use `repeatedTimer` to determine when to fire a projectile again.
 
 Here's a visual representation of it:  
-
+{{< expand "Click to expand" >}}
 {{< mermaid class="text-center">}}
 graph TB
-    A[Creation] -->|Set InitializeTimer| B{Check InitializeTimer}
+    A[Creation] -->|Set initialTimer| B{Check initialTimer}
     B -->|Timer > 0| C[Decrease Timer]
     C --> B
     B -->|Timer == 0| D[Fire Projectile]
-    D -->|Set RepeatedTimer| E{Check RepeatedTimer}
+    D -->|Set repeatedTimer| E{Check repeatedTimer}
     E -->|Timer > 0| F[Decrease Timer]
     F --> E
     E -->|Timer == 0| D
 {{< /mermaid >}}
+{{< /expand >}}
 
 TODO: note down `timer` for each wallfire.
 
