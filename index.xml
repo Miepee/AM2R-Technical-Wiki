@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AM2R</title>
+    <title>AM2R Technical Wiki</title>
     <link>https://miepee.github.io/AM2R-Technical-Wiki/</link>
-    <description>Recent content on AM2R</description>
+    <description>Recent content on AM2R Technical Wiki</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://miepee.github.io/AM2R-Technical-Wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alphas</title>
@@ -418,7 +418,7 @@ Custom Pallettes A GitHub repository containing community-made custom Samus pale
       <guid>https://miepee.github.io/AM2R-Technical-Wiki/enemies/wallfire/</guid>
       <description>There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.
 The internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2.
-[Wallfire1 image] Health: 11 Damage: 4 Can be X: No Can be EMP&amp;rsquo;d: Yes [Wallfire2 image] Health: 15 Damage: 4 Can be X: No Can be EMP&amp;rsquo;d: Yes Wallfire has two timers:</description>
+[Wallfire1 image] Health: 11 Damage: 4 Can be X: No Can be EMP&amp;rsquo;d: Yes [Wallfire2 image] Health: 15 Damage: 4 Can be X: No Can be EMP&amp;rsquo;d: Yes Wallfire has two timers (units in frames):</description>
     </item>
     
     <item>
