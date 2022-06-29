@@ -13,7 +13,7 @@
 
 
   <meta name="description" content="There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.
-The internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2
+The internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2.
 [Wallfire1 image] Health: 11 Damage: 4 Can be X: No Can be EMP&rsquo;d: Yes [Wallfire2 image] Health: 15 Damage: 4 Can be X: No Can be EMP&rsquo;d: Yes Wallfire has two timers:" />
 
     <title>Wallfire | AM2R</title>
@@ -41,7 +41,7 @@ The internal names are oWallfire and oWallfire2, and for projectiles oWallfirePr
   />
   <meta property="og:site_name" content="AM2R" />
   <meta property="og:description" content="There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.
-The internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2
+The internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2.
 [Wallfire1 image] Health: 11 Damage: 4 Can be X: No Can be EMP’d: Yes [Wallfire2 image] Health: 15 Damage: 4 Can be X: No Can be EMP’d: Yes Wallfire has two timers:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://miepee.github.io/AM2R-Technical-Wiki/enemies/wallfire/" />
@@ -52,7 +52,7 @@ The internal names are oWallfire and oWallfire2, and for projectiles oWallfirePr
   <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Wallfire" />
   <meta name="twitter:description" content="There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.
-The internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2
+The internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2.
 [Wallfire1 image] Health: 11 Damage: 4 Can be X: No Can be EMP’d: Yes [Wallfire2 image] Health: 15 Damage: 4 Can be X: No Can be EMP’d: Yes Wallfire has two timers:" />
 
 
@@ -64,7 +64,7 @@ The internal names are oWallfire and oWallfire2, and for projectiles oWallfirePr
       "name": "Wallfire",
       "url" : "https://miepee.github.io/AM2R-Technical-Wiki/enemies/wallfire/",
       "headline": "Wallfire",
-      "description": "There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.\nThe internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2\n[Wallfire1 image] Health: 11 Damage: 4 Can be X: No Can be EMP’d: Yes [Wallfire2 image] Health: 15 Damage: 4 Can be X: No Can be EMP’d: Yes Wallfire has two timers:",
+      "description": "There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.\nThe internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2.\n[Wallfire1 image] Health: 11 Damage: 4 Can be X: No Can be EMP’d: Yes [Wallfire2 image] Health: 15 Damage: 4 Can be X: No Can be EMP’d: Yes Wallfire has two timers:",
       "wordCount" : "221",
       "license": "CC BY-SA 4.0",
       "inLanguage": "en",
@@ -2339,7 +2339,7 @@ The internal names are oWallfire and oWallfire2, and for projectiles oWallfirePr
   >
     <h1>Wallfire</h1>
     <p>There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.<br>
-The internal names are <code>oWallfire</code> and <code>oWallfire2</code>, and for projectiles <code>oWallfireProj</code> and <code>oWallfireProj2</code></p>
+The internal names are <code>oWallfire</code> and <code>oWallfire2</code>, and for projectiles <code>oWallfireProj</code> and <code>oWallfireProj2</code>.</p>
 <ul>
 <li>[Wallfire1 image]</li>
 <li>Health: 11</li>
@@ -2402,21 +2402,21 @@ The internal names are <code>oWallfire</code> and <code>oWallfire2</code>, and f
 <p>Here&rsquo;s a visual representation of it:<br>
 
 <div class="gdoc-expand">
-  <label class="gdoc-expand__head flex justify-between" for="bae36cff-0">
+  <label class="gdoc-expand__head flex justify-between" for="383cdd9b-0">
     <span>Click to expand</span>
     <span>↕</span>
   </label>
-  <input id="bae36cff-0" type="checkbox" class="gdoc-expand__control hidden" />
+  <input id="383cdd9b-0" type="checkbox" class="gdoc-expand__control hidden" />
   <div class="gdoc-markdown--nested gdoc-expand__content">
       <script defer src="/AM2R-Technical-Wiki/js/mermaid-cb6d4919.bundle.min.js"></script>
 <pre class="gdoc-mermaid mermaid text-center">
 graph TB
     A[Creation] -->|Set initialTimer| B{Check initialTimer}
-    B -->|Timer > 0| C[Decrease Timer]
+    B -->|Timer > 0| C[Decrease initialTimer]
     C --> B
     B -->|Timer == 0| D[Fire Projectile]
     D -->|Set repeatedTimer| E{Check repeatedTimer}
-    E -->|Timer > 0| F[Decrease Timer]
+    E -->|Timer > 0| F[Decrease repeatedTimer]
     F --> E
     E -->|Timer == 0| D
 </pre>

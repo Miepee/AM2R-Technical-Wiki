@@ -264,7 +264,7 @@
       
       <guid>https://miepee.github.io/AM2R-Technical-Wiki/enemies/wallfire/</guid>
       <description>There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.
-The internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2
+The internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2.
 [Wallfire1 image] Health: 11 Damage: 4 Can be X: No Can be EMP&amp;rsquo;d: Yes [Wallfire2 image] Health: 15 Damage: 4 Can be X: No Can be EMP&amp;rsquo;d: Yes Wallfire has two timers:</description>
     </item>
     
