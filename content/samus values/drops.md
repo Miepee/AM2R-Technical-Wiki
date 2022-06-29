@@ -3,6 +3,7 @@ title: Drop Values
 ---
 
 Except for bosses and their projectiles, every enemy has the same drop spawning system, which is as follows:
+TODO: Rewrite this to be cleaner
 ```
 ├─ Pickup Index is set to a number between flr(rnd(4))
 │  ├─ If ("Pickup Index" is 0) then spawn "Small HP" if ("Player HP" is less than "Maximum HP" and "Small HP" count is less than "6")

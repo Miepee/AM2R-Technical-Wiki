@@ -15,13 +15,35 @@ The internal names are `oWallfire` and `oWallfire2`, and for projectiles `oWallf
 
 <--->
 
+TODO: speed is dependant of the difficulty!
+
+- [wallfireproj image]
+- HPush: 5
+- VPush: -3
+- Damage: 3
+- HSpeed: 3
+- VSpeed: 0
+
+{{</ columns >}}
+
+{{< columns >}}
+
 - [Wallfire2 image]
 - Health: 15
 - Damage: 4
 - Can be X: No
 - Can be EMP'd: Yes
 
-{{</ columns >}}
+<--->
+
+- [wallfireproj2 image]
+- HPush: 5
+- VPush: -3
+- Damage: 8
+- HSpeed: 3.5
+- VSpeed: 0
+
+{{< /columns >}}
 
 Wallfire has two timers (units in frames): 
 
@@ -40,42 +62,18 @@ At creation, the Wallfire runs `initialTimer` to determine when to fire the firs
 
 Here's a visual representation of it:  
 
-{{< mermaid class="text-center">}}
+{{< mermaid class="text-center" >}}
 graph TB
     A[Creation] -->|Set initialTimer| B{{Check initialTimer}}
-    B -->|Timer > 0| C[Decrease initialTimer]
+    B -->|initialTimer > 0| C[Decrease initialTimer]
     C --> B
-    B -->|Timer == 0| D[Fire Projectile]
+    B -->|initialTimer == 0| D[Fire Projectile]
     D -->|Set repeatedTimer| E{{Check repeatedTimer}}
-    E -->|Timer > 0| F[Decrease repeatedTimer]
+    E -->|repeatedTimer > 0| F[Decrease repeatedTimer]
     F --> E
-    E -->|Timer == 0| D
+    E -->|repeatedTimer == 0| D
 {{< /mermaid >}}
 
 TODO: note down `timer` for each wallfire.
-
-
----
-Wallfire Projectiles
-
-{{< columns >}}
-
-- [wallfireproj image]
-- HPush: 5
-- VPush: -3
-- Damage: 3
-- HSpeed: 3
-- VSpeed: 0
-
-<--->
-
-- [wallfireproj2 image]
-- HPush: 5
-- VPush: -3
-- Damage: 8
-- HSpeed: 3.5
-- VSpeed: 0
-
-{{< /columns >}}
 
 Source: [`oWallfire`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/objects/oWallfire.object.gmx), [`oWallFire2`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/objects/oWallfire2.object.gmx), [`oWallfireProj`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/objects/oWallfireProj.object.gmx), [`oWallfireProj2`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/objects/oWallfireProj2.object.gmx)

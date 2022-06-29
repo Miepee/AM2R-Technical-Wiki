@@ -1,0 +1,5 @@
+---
+title: Robomine
+---
+
+Croak.
