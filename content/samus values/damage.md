@@ -44,7 +44,8 @@ TODO: double check speed, as I'm certain SMs move faster
 Source: [`scripts/shoot_missile.gml`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/scripts/shoot_missile.gml), [`oMissile.UserEvent0`](https://github.com/AM2R-Community-Developers/AM2R-Community-Updates/blob/main/objects/oMissile.object.gmx)
 
 ## Bombs Stats
-TODO: find source and double check
+TODO: find source and double check  
+TODO: add bomb explosion
 | Name     | Damage     | Cooldown (in frames)  | Speed |
 | -------- | ---------- | --------------------- | ----- |
 | Normal   | 6	  	    | 10	 	            | 6.4	|

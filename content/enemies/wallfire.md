@@ -3,7 +3,6 @@ title: Wallfire
 ---
 
 There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.  
-The internal names are `oWallfire` and `oWallfire2`, and for projectiles `oWallfireProj` and `oWallfireProj2`. 
 
 {{< columns >}}
 
