@@ -65,7 +65,7 @@ The internal names are oWallfire and oWallfire2, and for projectiles oWallfirePr
       "url" : "https://miepee.github.io/AM2R-Technical-Wiki/enemies/wallfire/",
       "headline": "Wallfire",
       "description": "There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.\nThe internal names are oWallfire and oWallfire2, and for projectiles oWallfireProj and oWallfireProj2\n[Wallfire1 image] Health: 11 Damage: 4 Can be X: No Can be EMP’d: Yes [Wallfire2 image] Health: 15 Damage: 4 Can be X: No Can be EMP’d: Yes Wallfire has two timers:",
-      "wordCount" : "217",
+      "wordCount" : "221",
       "license": "CC BY-SA 4.0",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
@@ -2399,27 +2399,31 @@ The internal names are <code>oWallfire</code> and <code>oWallfire2</code>, and f
 </li>
 </ul>
 <p>At creation, the Wallfire runs <code>initialTimer</code> to determine when to fire the first projectile. After the first projectile has been fired, it will use <code>repeatedTimer</code> to determine when to fire a projectile again.</p>
-<p>Here&rsquo;s a visual representation of it:</p>
+<p>Here&rsquo;s a visual representation of it:<br>
 
-
-  
-  <script defer src="/AM2R-Technical-Wiki/js/mermaid-cb6d4919.bundle.min.js"></script>
-  
-
-
-
+<div class="gdoc-expand">
+  <label class="gdoc-expand__head flex justify-between" for="bae36cff-0">
+    <span>Click to expand</span>
+    <span>↕</span>
+  </label>
+  <input id="bae36cff-0" type="checkbox" class="gdoc-expand__control hidden" />
+  <div class="gdoc-markdown--nested gdoc-expand__content">
+      <script defer src="/AM2R-Technical-Wiki/js/mermaid-cb6d4919.bundle.min.js"></script>
 <pre class="gdoc-mermaid mermaid text-center">
 graph TB
-    A[Creation] -->|Set InitializeTimer| B{Check InitializeTimer}
+    A[Creation] -->|Set initialTimer| B{Check initialTimer}
     B -->|Timer > 0| C[Decrease Timer]
     C --> B
     B -->|Timer == 0| D[Fire Projectile]
-    D -->|Set RepeatedTimer| E{Check RepeatedTimer}
+    D -->|Set repeatedTimer| E{Check repeatedTimer}
     E -->|Timer > 0| F[Decrease Timer]
     F --> E
     E -->|Timer == 0| D
 </pre>
 
+  </div>
+</div>
+</p>
 <p>TODO: note down <code>timer</code> for each wallfire.</p>
 <hr>
 <p>Wallfire Projectiles</p>
