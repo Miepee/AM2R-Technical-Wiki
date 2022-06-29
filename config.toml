@@ -1,5 +1,5 @@
 baseURL = "https://miepee.github.io/AM2R-Technical-Wiki/"
-title = "AM2R"
+title = "AM2R Technical Wiki"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false

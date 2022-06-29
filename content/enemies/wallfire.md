@@ -5,20 +5,25 @@ title: Wallfire
 There are two types of Wallfires, the ones in Area 1 and the ones in Area 2. Besides health and spawning different projectiles, their behaviour is exactly the same.  
 The internal names are `oWallfire` and `oWallfire2`, and for projectiles `oWallfireProj` and `oWallfireProj2`. 
 
+{{< columns >}}
+
 - [Wallfire1 image]
 - Health: 11
 - Damage: 4
 - Can be X: No
 - Can be EMP'd: Yes
----
+
+<--->
+
 - [Wallfire2 image]
 - Health: 15
 - Damage: 4
 - Can be X: No
 - Can be EMP'd: Yes
----
 
-Wallfire has two timers: 
+{{</ columns >}}
+
+Wallfire has two timers (units in frames): 
 
 - initialTimer:
     |Easy|Normal|Hard
@@ -54,6 +59,8 @@ TODO: note down `timer` for each wallfire.
 ---
 Wallfire Projectiles
 
+{{< columns >}}
+
 - [wallfireproj image]
 - HPush: 5
 - VPush: -3
@@ -61,9 +68,13 @@ Wallfire Projectiles
 - HSpeed: 3
 - VSpeed: 0
 
+<--->
+
 - [wallfireproj2 image]
 - HPush: 5
 - VPush: -3
 - Damage: 8
 - HSpeed: 3.5
 - VSpeed: 0
+
+{{< /columns >}}
