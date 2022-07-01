@@ -469,9 +469,7 @@ Custom Pallettes A GitHub repository containing community-made custom Samus pale
       <guid>https://miepee.github.io/AM2R-Technical-Wiki/tricks/zips/</guid>
       <description>Zips allow you, as the name suggests, to quickly zip from one place to another.
 There are currently two known ways of zipping, jet zips and walljump zips.
-TODO: add Long Range activation maps and clean this up
-An explanation of a jet zip can be found here: https://www.youtube.com/watch?v=PoDZUUm0cw0
-There&amp;rsquo;s also this mystery zip https://www.youtube.com/watch?v=oQXVp05MLxU</description>
+Jet zips, as the name suggests, are done only under liquids because the animations are slowed down enough to be able to morph after a walljump. It&amp;rsquo;s a 3-frame window in order to pull it off and you have to walljump, morph and turn around.</description>
     </item>
     
   </channel>
